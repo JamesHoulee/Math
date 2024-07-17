@@ -1,0 +1,150 @@
+body {
+    background-color: #f4f4f4;
+    color: #555;
+    margin:0;
+    font-family: Calibri;
+}
+
+#main-header h1 {
+    margin:0px;
+    padding-bottom: 10px;
+}
+#section-header h1 {
+    margin:10px 0;
+}
+#main-header h3 {
+    font-size:32px;
+    margin:0;
+    padding-bottom:15px;
+}
+/*Code for the Navigation bar from w3schools at https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
+.navBar{
+    overflow: hidden;
+    background-color: black;
+}
+.navBar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropButton{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: grey;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+/* End of navigation bar code */ 
+
+.container {
+    margin:auto;
+    width: 85%;
+}
+
+.border { 
+    border-style: solid;
+    border-color: black;
+    margin: 0.2%
+}
+
+#main-header {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    background-color: rgb(0, 225, 255);
+    font-size: 16px;
+}
+
+#section-header{
+    margin:0;
+    padding:1px;
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+    font-size: 14px;
+}
+
+#main-footer {
+    margin:0;
+    padding:1px;
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    float: bottom;
+}
+
+#main-footer a {
+    margin-left: 47%;
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.codeText {
+    font-family: Courier New;
+    font-size: 12px;
+    margin-left:60px;
+}
+.tab {
+    margin-left:30px;  
+}
+.floatRight {
+    float: right;
+}
+.floatLeft {
+    float: left;
+}
+.clearFloat {
+    clear: both;
+}
+.take33 {
+    width: 33%;
+}
+.noBullet {
+    list-style: none;
+}
+.noBullet li {
+    margin-bottom: 12px;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
