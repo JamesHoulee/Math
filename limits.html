@@ -2,14 +2,7 @@
 <!-- KaTeX requires the use of the HTML5 doctype. Without it, KaTeX may not render properly -->
 <html>
     <head>
-        <!-- To load the css and the fonts for Katex -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css">
-
-        <!-- The loading of KaTeX is deferred to speed up page rendering -->
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js"></script>
-        
-        <!-- To automatically render math in text elements -->
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
         <title>Limits</title>
         <link rel = "stylesheet" type = "text/css" href="stylesheet.css">
@@ -19,6 +12,7 @@
         <div class = "navBar">
         <div class="container">
             <a href="index.html">About Me</a>
+            <a href="hikes.html">My Hikes</a>
             <div class="dropdown">
             <button class="dropButton">A Little Analysis</button>
             <div class="dropdown-content">
@@ -32,7 +26,7 @@
             <h2>Limits</h2>
 
             <p>If you took some form of calculus in high school, you've probabily encountered the idea of a limit, likely when defining the derivative for the first time. </p>
-            $$f'(x) = \lim_{h\rightarrow\infty}\frac{f(x+h)-f(x)}{h}$$
+            \[f'(x) = \lim_{h\rightarrow\infty}\frac{f(x+h)-f(x)}{h}\]
             <p>To find what the limit is, you would use some technique to get rid of the \(h\) in the denominator and then plug in \(h=0\) into the rest of the equation. If you were really lucky, to find something like \(\lim_{x=2}f(x)\), you would just do the substitution \(f(2)\) and you'd have your answer. But in a more general and rigourus way, what do we mean by a "limit"? </p>
             <p>If we're talking about a function, one might say that it's the value that we approach as we trace our finger along the function. This feels a little handwavy, so let's simplify our scenario for now. Instead of functions, let's just talk about sequences. </p>
 
